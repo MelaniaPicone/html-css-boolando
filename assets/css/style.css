@@ -21,7 +21,7 @@ header {
 main {
   max-width: 1000px;
   height: auto;
-  padding-top: 100px;
+  padding-top: 60px;
   margin: 0 auto;
 }
 
@@ -71,7 +71,6 @@ footer {
 .col-50 img {
   width: 20%;
 }
-
 
 
 .container-main {
@@ -197,6 +196,11 @@ footer {
 
 }
 
+.py-2 {
+  position: absolute;
+  top: 330px;
+}
+
 .product {
   width: 100%;
   height: auto;
@@ -241,4 +245,19 @@ footer {
 
 .card:hover .back-image {
   display: block;
+}
+
+
+
+/* pagina aggiuntiva */
+
+.boximagedet {
+  width: 350px;
+}
+
+.container-mainextra {
+  padding: 0px;
+  max-width: 850px;
+  height: auto;
+  margin: 0 auto;
 }
