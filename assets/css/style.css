@@ -33,6 +33,13 @@ main {
 
 }
 
+.container-foot {
+  max-width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+}
+
 .center {
   text-align: center;
   align-content: center;
@@ -87,4 +94,32 @@ main {
 
 .card img {
   width: 100%;
+}
+
+.col-50 {
+  width: 50%;
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(251, 238, 238);
+  color: white;
+  line-height: 20px;
+}
+
+.col-50 h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.col-50 li {
+  font-size: 10px;
+  display: inline;
+  padding: 10px;
+}
+
+.col-50 a {
+color: white;
+text-decoration: none;
+}
+
+.col-50 i {
+  padding: 5px
 }
