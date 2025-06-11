@@ -100,6 +100,10 @@ footer {
   height: 400px;
 }
 
+.card {
+  position: relative;
+}
+
 .card img {
   width: 100%;
 }
@@ -127,6 +131,25 @@ color: white;
 text-decoration: none;
 }
 
+.col-25 a {
+color: white;
+text-decoration: none;
+}
+
 .col-50 i {
   padding: 5px
+}
+
+.heart {
+width: 30px;
+height: 30px;
+background-color: white;
+color: black;
+padding: 5px;
+}
+
+.position-absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
