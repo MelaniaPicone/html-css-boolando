@@ -68,6 +68,7 @@ footer {
   height: auto;
 }
 
+
 .col-50 img {
   width: 20%;
 }
@@ -252,12 +253,22 @@ footer {
 /* pagina aggiuntiva */
 
 .boximagedet {
-  width: 350px;
+  width: 250px;
 }
 
 .container-mainextra {
   padding: 0px;
-  max-width: 850px;
+  max-width: auto;
   height: auto;
   margin: 0 auto;
+  padding-bottom: 30px;
 }
+
+ul li p {
+  font-size: 10px;
+  text-align: justify;
+  font-style: italic;
+
+
+}
+
