@@ -19,7 +19,7 @@ header {
 
 main {
   max-width: 1000px;
-  height: 1000px;
+  height: auto;
   background-color: grey;
   padding-top: 100px;
   margin: 0 auto;
@@ -34,7 +34,7 @@ main {
 }
 
 .center {
-text-align: center;
+  text-align: center;
   align-content: center;
 }
 
@@ -43,7 +43,7 @@ text-align: center;
   background-color: aqua;
   width: 25%;
   height: 50px;
-  
+
 }
 
 .col-50 {
@@ -58,17 +58,33 @@ text-align: center;
 
 
 .container-main {
-background-color: antiquewhite;
-max-width: 900px;
-height: auto;
-margin: 0 auto;
+  padding: 30px;
+  background-color: antiquewhite;
+  max-width: 850px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .row {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.col-33 {
+  width: calc(90% / 3);
+  border: 1px solid black;
 }
 
 
+.h-500 {
+  height: 400px;
+}
 
-
-
+.card img {
+  width: 100%;
+}
