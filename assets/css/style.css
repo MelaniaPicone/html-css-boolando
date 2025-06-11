@@ -190,16 +190,15 @@ footer {
 }
 
 .px-0 {
-  position:absolute;
+  position: absolute;
   left: 0px;
 
 }
 
 .product {
-  background-color: aquamarine;
   width: 100%;
   height: auto;
-  padding: 1px 10px;
+  padding: 1px 2px;
   color: black;
 }
 
@@ -224,4 +223,20 @@ footer {
 
 .product ul li:last-child {
   font-size: 13px;
+}
+
+.front-image {
+  display: block;
+}
+
+.card:hover .front-image {
+  display: none;
+}
+
+.back-image {
+  display: none;
+}
+
+.card:hover .back-image {
+  display: block;
 }
