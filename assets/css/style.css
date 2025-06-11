@@ -25,6 +25,14 @@ main {
   margin: 0 auto;
 }
 
+footer {
+  width: 100%;
+  height: auto;
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
+
+}
+
 .container-head {
   max-width: auto;
   height: auto;
@@ -99,7 +107,6 @@ main {
 .col-50 {
   width: 50%;
   background-color: rgb(34, 34, 34);
-  border: 1px solid rgb(251, 238, 238);
   color: white;
   line-height: 20px;
 }
